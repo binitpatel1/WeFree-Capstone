@@ -295,7 +295,7 @@ section.cta .overlay {
 }
 section.contact h2 {
   margin-top: 0;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
 }
 
@@ -313,90 +313,26 @@ section.contact .signup{
 text-align: center;
 width: 390;
 }
-
-/* .form-sign-in-with-social{
-    display: inline-block;
-    max-width: none;
-    margin-top: -4vh;
-    text-align: center;
-    margin-left: 15vw;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-}
-
-.form-sign-in-with-social .form-title-row{
-    margin-bottom: 50px;
-}
-
-.form-sign-in-with-social .form-title{
-    box-sizing: border-box;
-    color:  white;
-    font-size: 24px;
-    padding: 15px 20px;
-    border-bottom: 2px solid #6caee0;
-}
-
-.form-sign-in-with-social .form-google-button{
-    color:  #ffffff;
-    display: block;
-    width: auto;
-    height: auto;
-    font-size: 12px;
-    line-height: 40px;
-    background-color:  rgba(222, 110, 60, 0.9);
-    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 2px;
-    margin: 8px auto;
-    text-decoration: none;
-}
-
-.form-sign-in-with-social .form-facebook-button{
-    color:  #ffffff;
-    display: block;
-    width: auto;
-    height: auto;
-    font-size: 12px;
-    line-height: 40px;
-    background-color:  rgba(75, 136, 194, 0.9);
-    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 2px;
-    margin: 8px auto;
-    text-decoration: none;
-}
-
-.form-sign-in-with-social .form-twitter-button{
-    color:  #ffffff;
-    display: block;
-    width: auto;
-    height: auto;
-    font-size: 12px;
-    line-height: 40px;
-    background-color:  rgba(123, 195, 226, 0.9);
-    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 2px;
-    margin: 8px auto;
-    text-decoration: none;
-}
-*/  
-    section.contact .or {
-        text-align: center;
-        margin: 50;
-        margin-left: 10vw;
+ 
+section.contact .or {
         border-radius: 100%;
-        height: 70;
-        width: 70;
-        padding:1;
-        background-color: orange;
-        
-        
-    }
-section.contact ul.list-social {
-  margin-bottom: 0;
-    margin-left: 10vw;
-    }
-    
-    section.contact #Media {
         text-align: center;
-        font-size: 35px;
+        height: 80;
+        width: 80;
+        background-color: orange;
+        margin-left: 100%;
+    }
+section.contact #option{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 25;
+    }
+
+    
+section.contact #Media {
+text-align: center;
+font-size: 35px;
     }
     
 }
@@ -437,6 +373,17 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
+section.contact .socialmedia{
+    text-align: center;  
+}
+
+section.contact .signupform {
+   width: 390px;
+}
+section.contact .socialmedia {
+    width: 110%;
+}
+
 footer {
   background-color: #222222;
   padding: 25px 0;
@@ -460,8 +407,3 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }
-
-@media (min-width: 768px) {
-  footer {
-    min-height: 100%;
-  }
