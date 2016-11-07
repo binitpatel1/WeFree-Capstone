@@ -1,0 +1,24 @@
+{
+  "name": "WeFree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buttons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binitpatel1/WeFree-Capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+    "dependencies":{
+        "express": "^4.13.4",
+        "mongoose": "^4.4.12"
+    },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binitpatel1/WeFree-Capstone/issues"
+  },
+  "homepage": "https://github.com/binitpatel1/WeFree-Capstone#readme"
+}

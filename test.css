@@ -102,7 +102,7 @@ header {
   background: linear-gradient(
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
-    ),url("Images/pattern-abstract-honeycomb-metal.jpg"), white;
+  ),url("Images/pattern-abstract-honeycomb-metal.jpg")no-repeat; background-attachment:fixed; }
   /*Fallback for old browsers */
   background: linear-gradient(
       rgba(0, 0, 0, 0.4), 
@@ -131,6 +131,10 @@ header .header-content .header-content-inner {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
+}
+
+header .header-content .header-content-inner h1{
+    color: white;
 }
 
 header .header-content .header-content-inner .list-badges {
@@ -175,9 +179,6 @@ header .device-container {
     max-height: calc(0vh);
     margin: 100px 0 0;
 }
-
-
-
 section {
   padding: 100px 0;
 }
@@ -185,32 +186,32 @@ section h2 {
   font-size: 50px;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
 }
-section.download {
+section.buzz {
   padding: 150px 0;
   position: relative;
 }
-section.download h2 {
+section.buzz h2 {
   margin-top: 0;
   font-size: 50px;
 }
-section.download .badges .badge-link {
+section.buzz .badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
-section.download .badges .badge-link:last-child {
+section.buzz .badges .badge-link:last-child {
   margin-bottom: 0;
 }
-section.download .badges .badge-link img {
+section.buzz .badges .badge-link img {
   height: 60px;
 }
 @media (min-width: 768px) {
-  section.download .badges .badge-link {
+  section.buzz .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {
-  section.download h2 {
+  section.buzz h2 {
     font-size: 70px;
   }
 }
@@ -258,21 +259,22 @@ section.features .feature-item h3 {
   }
 }
 
-section.cta {
+section.startBuild {
   position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
   background-position: center;
-  background-image: url('Images/web.jpg');
+  background: url('Images/web.jpg')no-repeat; background-attachment:fixed;,
+    
   padding: 250px 0;
 }
-section.cta .cta-content {
+section.startBuild .startBuild-content {
   position: relative;
   z-index: 1;
 }
-section.cta .cta-content h2 {
+section.startBuild .startBuild-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
@@ -281,11 +283,11 @@ section.cta .cta-content h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
 }
 @media (min-width: 768px) {
-  section.cta .cta-content h2 {
+  section.startBuild .startBuild-content h2 {
     font-size: 60px;
   }
 }
-section.cta .overlay {
+section.startBuild .overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -384,6 +386,10 @@ section.contact .socialmedia {
     width: 110%;
 }
 
+@media (min-width: 591px) {
+    section.contact .socialmedia
+}
+    
 
 footer {
   background-color: #222222;
