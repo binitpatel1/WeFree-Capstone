@@ -11,7 +11,12 @@
             price: 25.00,
             name: 'Nathan Smith',
             description: 'Providing custom web pates to meet your needs and expectations! I have been hired by 50+ members and have successfully completed all projects for clients. My specialty is creating custom responsive web sites. If you have any questions please message me.',
-            images: [{}],
+            images: [
+                { 
+                    full: 'Images/nathan.jpg',
+                    thumb: 'Images/nathan.jpg'
+                }
+            ],
             reviews: [
                 {
                     stars: 4,

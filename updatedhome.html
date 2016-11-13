@@ -1,14 +1,11 @@
 <html>
 <head>
     <title>Welcome</title>
-    <!--Stylesheet-->
+    
     <link rel="stylesheet" type="text/css" href="test.css">
-    <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link href="css/animate.min.css" rel="stylesheet">
@@ -24,7 +21,7 @@
                 <a class="navbar-brand page-scroll" href="#page-top">WeFree</a>
             </div>
             
-            <!-- Collect the nav links, forms, and other content for toggling -->
+    
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -41,9 +38,9 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+          
         </div>
-        <!-- /.container-fluid -->
+   
     </nav>
     
      <header>
@@ -93,9 +90,6 @@
                             <div class="device">
                                 <div class="screen">
                                     <img src="Images/24-512.png" class="img-responsive" alt=""> </div>
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -162,7 +156,7 @@
 <div class="col-md-6">
   <form>
     <div class="form-group row">
-      <label for="firtname" class="col-sm-2 col-form-label">First Name</label>
+      <label for="firstname" class="col-sm-2 col-form-label">First Name</label>
       <div class="col-sm-6">
         <input type="email" class="form-control" id="inputEmail3" placeholder="First Name">
       </div>
@@ -232,8 +226,8 @@
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>The Team</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <h2>Featured Developers</h2>
+          <p>Just a few of our developers who can help you achieve your goals</p>
         </div>
       </div>
       <div class="team-members">
@@ -241,63 +235,73 @@
           <div class="col-sm-3">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/1.jpg" alt="">
+                <img class="img-responsive" src="Images/adam.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3>Marian Dixon</h3>
-                <h4>CEO &amp; Founder</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <h3>Adam O'Quinn</h3>
+                <h4>Web Developer</h4>
+                <p>"Custom websites at your service"</p>
+                 <button type="submit" class="btn btn-primary">View</button>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/2.jpg" alt="">
+                <img class="img-responsive" src="Images/laura.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3>Lawrence Lane</h3>
+                <h3>Laura Palmer</h3>
                 <h4>UI/UX Designer</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <p>"Let me design your future"</p>
+                 <div class="Member-button">
+                 <button type="submit" class="btn btn-primary">View</button>
+                  </div>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/3.jpg" alt="">
+                <img class="img-responsive" src="Images/john.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3>Lois Clark</h3>
+                <h3>Johnny Artisan</h3>
                 <h4>Developer</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <p>"Full Stack Freelance Developer"</p>
+                 <div class="Member-button">
+                  <button type="submit" class="btn btn-primary" >View</button>
+                 </div>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/4.jpg" alt="">
+                <img class="img-responsive" src="images/shawn.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3>Marian Dixon</h3>
-                <h4>Support Manager</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <h3>Shawn Thordaner</h3>
+                <h4>Professional Web Developer</h4>
+                <p>"Let's code and create together"</p>
+                <button type="submit" class="btn btn-primary">View</button>
               </div>
             </div>
           </div>
         </div>
       </div>            
     </div>
-  </section><!--/#team-->            
+  </section>           
         
-<section ng-controller="DeveloperController as developers" id="developers">
+<section id="developers" ng-controller="DeveloperController as developers">
     <div class="container">
      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="15ms">
          <div class="col-lg-12 text-center">
              <div class="section-heading">
                 <h2>The Developers</h2>
-                    <p class="text-muted">Choose the developer you want</p>
+             </div>
+                    <p>Choose the developer you want</p>
                      <hr>
                     </div>
                 </div>
@@ -305,18 +309,36 @@
         </div>
     <!--Add Reviews/Developers here-->
     <div class="row">
-        <div class="col-lg-12">
-            <div ng-repeat="product in developers.product">
-                <h1>{{product.title}}</h1>
-                <h3>{{product.name}}</h3>
-                <h3>${{product.price}}</h3>
-                <h4>{{product.description}}</h4>
-                <p>{{product.reviews}}</p>
+        <div class="container">
+        <div ng-repeat="product in developers.product">
+        <div class="col-sm-4">
+            <div class="dev" class="wow bounceinUp" data-wow-duration="1000ms" data-wow-delay="1100ms">
+            <img ng-src="{{product.images[0].full}}" height=200px width=300px/>
+                        <h3>{{product.name}}</h3>
+                        <h4>{{product.title}}</h4>
+                        <h4>${{product.price}}/hr</h4>
+                        <p>{{product.description}}</p>
+                    </div>
+                </div>
             </div>
-                <button id="devbutton" class="btn btn-big">View All</button>
         </div>
-    </div>
+        </div>
+        <button id="devbutton" class="btn btn-big">View All</button>
+    
+    <!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+    
 </section>
     
 <footer>
@@ -342,9 +364,11 @@
     <!--Angular-->
     <script type="text/javascript" src="js/angular.min.js"></script>
     <!--JavaScript-->
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="buttons.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script><script>new WOW().init();</script>
+    <script type ="text/javascript" src='js/modal.js'></script>
+
     </body>
     </html>
     
