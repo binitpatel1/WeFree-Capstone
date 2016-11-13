@@ -233,7 +233,7 @@
       <div class="team-members">
         <div class="row">
           <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="member-image">
                 <img class="img-responsive" src="Images/adam.jpg" alt="">
               </div>
@@ -246,7 +246,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
               <div class="member-image">
                 <img class="img-responsive" src="Images/laura.jpg" alt="">
               </div>
@@ -261,7 +261,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div class="member-image">
                 <img class="img-responsive" src="Images/john.jpg" alt="">
               </div>
@@ -276,7 +276,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+            <div class="wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
               <div class="member-image">
                 <img class="img-responsive" src="images/shawn.jpg" alt="">
               </div>
@@ -312,13 +312,15 @@
         <div class="container">
         <div ng-repeat="product in developers.product">
         <div class="col-sm-4">
-            <div class="dev" class="wow bounceinUp" data-wow-duration="1000ms" data-wow-delay="1100ms">
-            <img ng-src="{{product.images[0].full}}" height=200px width=300px/>
+            <div class="wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="dev">
+            <img ng-src="{{product.images[0].full}}" height=200px width=300px class="img-rounded"/>
                         <h3>{{product.name}}</h3>
                         <h4>{{product.title}}</h4>
                         <h4>${{product.price}}/hr</h4>
                         <p>{{product.description}}</p>
                     </div>
+            </div>
                 </div>
             </div>
         </div>
